@@ -1,0 +1,111 @@
+/*--------- Підключення шрифтів ---------------- */
+@font-face {
+	font-family: "Molot";
+	src: url("../fonts/Molot.woff2") format("woff2"), url("../fonts/Molot.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+/* код */
+body{
+	font-family: 'Lato';
+	font-style: normal;
+	font-style: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #424551;
+	background-color: #d2d5db;
+}
+/* ======================================================= */
+h1 {
+	font-size: 46px;
+	color: #1e212c;
+	line-height: 1.3;
+	font-weight: 900;
+	margin-bottom: 26px;
+}
+
+/* ================================================ */
+
+.wrapper {
+	min-height: 100%;
+	max-width: 850px;
+	padding: 0 20px;
+	margin: 0px auto;
+	background: #ffffff;
+	overflow: hidden;
+}
+.header {}
+.page {}
+.lesson {
+}
+.lesson__title {
+}
+.lesson__info {
+}
+.info {
+	color: #787a80;
+	margin-bottom: 40px;
+
+}
+.info__data {
+	margin-right: 25px;
+	background: url(../img/figma-icons/Calendar.svg) 0 2px no-repeat ; 
+	padding-left: 24px;
+}
+.info__time {
+	background: url(../img/figma-icons/Clock.svg) 0 2px no-repeat;
+	padding-left: 24px;
+}
+.lesson__image {
+	max-width: 100%;
+	margin-bottom: 60px;
+}
+.image__text{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 24px;
+	color: #1E212C
+}
+
+.lesson__text {
+	margin-bottom: 48px;
+}
+.lesson__text >p {
+	margin-bottom: 24px;
+}
+blockquote {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1E212C;
+	margin-bottom: 48px;
+	padding-left: 60px;
+	background :url(../img/figma-icons/braces.png) 0 6px no-repeat;
+}
+.lesson__text-list {
+	margin-bottom: 40px;
+}
+li.list__pic {
+	margin-bottom: 4px;
+}
+li.list__pic::before {
+	background: url(../img/figma-icons/Vector.svg) 0 0px no-repeat;
+	content: '';
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 10px;
+	transition: all 1.2s ease 0s;
+	padding-left: 32px;
+}
+ul.text-list, li.list__pic:hover::before {
+	transform: scale(1.5) rotate(-360deg);
+}
+.lesson__text-footer{
+	margin-bottom: 40px;
+}
+.footer {
+}
+
