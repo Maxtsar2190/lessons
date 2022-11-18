@@ -1,0 +1,84 @@
+
+body{
+
+}
+
+.wrapper {
+	min-height: 100%;
+	max-width: 100%;
+	overflow: hidden;
+}
+.header {}
+.main {
+}
+.main-world {
+	min-height: 100vh;
+	background: url(../img/sky.jpg) 0 0 / cover no-repeat;
+	position: relative;
+}
+.main-world__highway{
+	height: 200px;
+	width: 500%;
+	display: block;
+	background: url(../img/road.jpg) 0 0 no-repeat;
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+
+}
+.main-world__city {
+	height: 250px;
+	width: 500%;
+	background-image: url(../img/city.png);
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 200px;
+	z-index: 1;
+}
+.main-world__car{
+	width: 400px;
+	position: absolute;
+	left: 400px;
+	bottom: 100px;
+	z-index: 2;
+
+}
+.main-world__car img{
+	width: 100%;
+}
+.main-world__wheels {
+	left: 600px;
+	position: absolute;
+	bottom: 168px;
+	z-index: 2;
+
+}
+.main-world__wheels img{
+	width: 65px;
+	height: 65px;
+}
+.main-world__wheels--back {
+	position: absolute;
+	left: -147px;
+	
+}
+.main-world__wheels--front {
+	position: absolute;
+	left: 100px;
+}
+.main-world__glass{
+	width:400px ;
+	position: absolute;
+	left: 400px;
+	bottom: 100px;
+	opacity: 0;
+	z-index: 2;
+}
+.main-world__glass:hover{
+	opacity: 1;
+}
+
+.main-world__glass img{
+	width: 100%;
+}
